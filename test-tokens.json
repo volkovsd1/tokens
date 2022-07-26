@@ -478,19 +478,19 @@
   "test_default-theme": {
     "topnav": {
       "bg": {
-        "default": {
+        "base": {
           "value": "{core-tokens.navyblue.800}",
           "type": "color"
         },
-        "hover": {
+        "base-hover": {
           "value": "rgba({core-tokens.white.0}, 0.15)",
           "type": "color"
         },
-        "active": {
+        "base-active": {
           "value": "rgba({core-tokens.white.0}, 0.25)",
           "type": "color"
         },
-        "selected": {
+        "base-selected": {
           "value": "{core-tokens.gradient.teal-gradient}",
           "type": "color"
         },
@@ -516,37 +516,37 @@
           "value": "{core-tokens.white.0}",
           "type": "color"
         },
-        "default": {
+        "base": {
           "value": "rgba({core-tokens.white.0}, 0.8)",
           "type": "color"
         },
-        "hover": {
+        "base-hover": {
           "value": "{core-tokens.white.0}",
           "type": "color"
         },
-        "active": {
+        "base-active": {
           "value": "{core-tokens.white.0}",
           "type": "color"
         },
-        "selected": {
+        "base-selected": {
           "value": "{core-tokens.white.0}",
           "type": "color"
         }
       },
       "icon": {
-        "default": {
+        "base": {
           "value": "rgba({core-tokens.white.0}, 0.8)",
           "type": "color"
         },
-        "hover": {
+        "base-hover": {
           "value": "{core-tokens.white.0}",
           "type": "color"
         },
-        "active": {
+        "base-active": {
           "value": "{core-tokens.white.0}",
           "type": "color"
         },
-        "selected": {
+        "base-selected": {
           "value": "{core-tokens.white.0}",
           "type": "color"
         },
@@ -560,7 +560,7 @@
         }
       },
       "border": {
-        "default": {
+        "base": {
           "value": "rgba({core-tokens.white.0}, 0.2)",
           "type": "color"
         },
@@ -580,11 +580,11 @@
     },
     "login": {
       "bg": {
-        "default": {
+        "base": {
           "value": "{core-tokens.gradient.blue-gradient}",
           "type": "color"
         },
-        "weak": {
+        "secondary": {
           "value": "{core-tokens.navyblue.800}",
           "type": "color"
         }
@@ -592,11 +592,11 @@
     },
     "marketing": {
       "bg": {
-        "default": {
+        "base": {
           "value": "{core-tokens.gradient.blue-gradient}",
           "type": "color"
         },
-        "weak": {
+        "secondary": {
           "value": "{core-tokens.navyblue.800}",
           "type": "color"
         }
@@ -606,19 +606,19 @@
   "test_black-theme": {
     "topnav": {
       "bg": {
-        "default": {
+        "base": {
           "value": "{core-tokens.gray.900}",
           "type": "color"
         },
-        "hover": {
+        "base-hover": {
           "value": "rgba({core-tokens.white.0}, 0.15)",
           "type": "color"
         },
-        "active": {
+        "base-active": {
           "value": "rgba({core-tokens.white.0}, 0.25)",
           "type": "color"
         },
-        "selected": {
+        "base-selected": {
           "value": "{core-tokens.gradient.teal-gradient}",
           "type": "color"
         },
@@ -644,37 +644,37 @@
           "value": "{core-tokens.white.0}",
           "type": "color"
         },
-        "default": {
+        "base": {
           "value": "rgba({core-tokens.white.0}, 0.8)",
           "type": "color"
         },
-        "hover": {
+        "base-hover": {
           "value": "{core-tokens.white.0}",
           "type": "color"
         },
-        "active": {
+        "base-active": {
           "value": "{core-tokens.white.0}",
           "type": "color"
         },
-        "selected": {
+        "base-selected": {
           "value": "{core-tokens.white.0}",
           "type": "color"
         }
       },
       "icon": {
-        "default": {
+        "base": {
           "value": "rgba({core-tokens.white.0}, 0.8)",
           "type": "color"
         },
-        "hover": {
+        "base-hover": {
           "value": "{core-tokens.white.0}",
           "type": "color"
         },
-        "active": {
+        "base-active": {
           "value": "{core-tokens.white.0}",
           "type": "color"
         },
-        "selected": {
+        "base-selected": {
           "value": "{core-tokens.white.0}",
           "type": "color"
         },
@@ -688,7 +688,7 @@
         }
       },
       "border": {
-        "default": {
+        "base": {
           "value": "rgba({core-tokens.white.0}, 0.2)",
           "type": "color"
         },
@@ -708,11 +708,11 @@
     },
     "login": {
       "bg": {
-        "default": {
+        "base": {
           "value": "{core-tokens.gradient.black-gradient}",
           "type": "color"
         },
-        "weak": {
+        "secondary": {
           "value": "rgba({core-tokens.white.0}, 0.1)",
           "type": "color"
         }
@@ -720,11 +720,11 @@
     },
     "marketing": {
       "bg": {
-        "default": {
+        "base": {
           "value": "{core-tokens.gradient.black-gradient}",
           "type": "color"
         },
-        "weak": {
+        "secondary": {
           "value": "rgba({core-tokens.white.0}, 0.1)",
           "type": "color"
         }
